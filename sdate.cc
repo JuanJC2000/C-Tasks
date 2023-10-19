@@ -27,10 +27,10 @@ public:
 
 };
 
-// ostream & operator << (ostream &s, const Date &d){
+ ostream & operator << (ostream &s, const Date &d){
 
-// 	return s << d.year() << '/' << d.month() << '/' << d.day();
-// }
+ 	return s << d.year() << '/' << d.month() << '/' << d.day();
+ }
 
 // Position C: GOOD! operator<< is an independent function!
 
